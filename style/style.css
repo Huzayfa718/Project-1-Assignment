@@ -339,7 +339,9 @@ text-align: center;
     padding: 80px 100px;
     
   }
-  
+  .end h1{
+    font-size: 200%;
+  }
   .subscribe {
 
     display: flex;
@@ -349,17 +351,17 @@ text-align: center;
     justify-content: center;
     align-items: center;
   }
+
+  
   .subscribe input {
+    padding: 17px 40px;
     background-color: white;
     border-radius: 8px 0px 0px 8px;
-    padding: 17px 40px;
     border: none;
     font-size: 18px;
     width: 70%;
   }
   .subscribe button {
-    margin: 0;
-    
     padding: 17px 34px;
     border-radius: 0px 8px 8px 0px;
     background-color: #006a50;
