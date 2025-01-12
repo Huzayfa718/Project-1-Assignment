@@ -161,8 +161,8 @@ text-align: center;
 }
 
 .quote{
-    position:relative
-    margin-top: 10%;
+ 
+    margin-top: 10% ;
     display: flex;
     flex-direction: column;
     justify-content:;
@@ -174,7 +174,7 @@ text-align: center;
 
 
   .quote img {
-    opacity: 0.6;
+    opacity: 0.8;
     position: absolute;
     background-color: transparent;
   }
@@ -273,23 +273,24 @@ text-align: center;
     flex-direction: row;
     justify-content: space-between;
    align-items:center;
-  }
+   color:white;
 
+  }
   .donatecard{
-    background-color: white;
+
     padding: 3% 4% 3% 4%;
     border-radius: 15px;
     height: 30%;
     width: 30%;
     font-size: 200%;
-    cursor:grab;
-    transition: 0.25s;
-    text-align: center;
+    cursor: pointer;
+    background: rgb(255, 255, 255);
+    
   }
-  .donatecard:hover {
-    opacity: 0.7;
-    color : rgb(255, 255, 255);
-    background-color: rgb(11, 222, 25);
+  
+  .donatecard:hover{
+    background-color: rgb(46, 11, 222);
+    opacity:0.7;
   }
 
 
@@ -312,25 +313,62 @@ text-align: center;
     margin-top: 1%;
   }
 
- .donate input {
-        width: 90%;
-        padding: 20px 40px;
-        border: none;
-        text-align: center;
-        font-size: 20px;
-        background-color: rgb(255, 255, 255);
+  .amount input {
+    width: 90%;
+    padding: 20px 40px;
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  .amount button {
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: #006a50;
+    color: white;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+  }
+
+  .end {
+    text-align: center;
+    border-radius: 24px;
+    background-color: transparent;
+    padding: 80px 100px;
+    
+  }
+  .end h1{
+    font-size: 200%;
+  }
+  .subscribe {
+
+    display: flex;
+    margin: 0;
+    padding:0;
+    gap :0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+  .subscribe input {
+    padding: 17px 40px;
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+    font-size: 18px;
+    width: 70%;
+  }
+  .subscribe button {
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006a50;
+    font-size: 18px;
+    font
  }
 
 
-.donate button {
-            padding: 13px 26px;
-            border-radius: 8px;
-            background: #006a50;
-            color: white;
-            font-weight: 600;
-            border: none;
-            cursor: pointer;
- }
 
  .end {
     text-align: center;
