@@ -1,0 +1,378 @@
+* {
+    margin: 1% 2% 1% 2%;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(245, 245, 245);
+  }
+  
+
+body{
+ 
+    font-family: Fira Sans;
+    color: #0e0e0e;
+  }
+
+  button {
+    transition: 0.25s;
+  }
+  button:hover {
+    opacity: 0.7;
+  }
+
+
+.intro{
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding:;
+
+}
+
+.bangla{
+ font-size: 40px;
+ font-weight: bold;
+}
+
+.signin{
+width: 20% ;
+height: 20%;
+padding: 1.5% .5% 1.5% .5% ;
+background-color:rgb(134, 185, 58) ;
+font-size: 100%;
+font-weight: bold;
+border-radius: 15px; 
+border: none;
+cursor: pointer;
+text-align: center;
+}
+
+.banner{
+    border-radius: 25px;
+    background: rgb(198, 228, 214);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bannertext{
+    background-color: transparent;
+    font-size: 200%;
+}
+.topline{
+    background-color: transparent;
+}
+.bannerbutton{
+    font-size: 50%;
+    background-color:rgb(190, 185, 26) ;
+    width: 40% ;
+    height: 20%;
+    padding: 1% .5% 1% .5% ;
+    font-family: Fira Sans;
+    font-weight: bold;
+    border-radius: 15px; 
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+.headbig{
+    background-color: transparent;
+}
+
+.heroimg{
+   background-color: transparent;
+   padding: 2% 2% 2% 2%;
+}
+
+.vision{
+    margin-top: 10%;
+}
+.vision h1{
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.visioncards{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.cd1{
+    background-color: rgb(120, 238, 238);
+    padding: 3% 2% 3% 2%;
+    border-radius: 15px;
+    height: 30%;
+    width: 30%;
+}
+
+.cd2{
+    background-color: rgb(239, 180, 117);
+    padding: 3% 2% 3% 2%;
+    border-radius: 15px;
+    height: 30%;
+    width: 30%;
+}
+.cd3{
+    background-color: rgb(130, 215, 130);
+    padding: 3% 2% 3% 2%;
+    border-radius: 15px;
+    height: 30%;
+    width: 30%;
+}
+
+.cardhead{
+    background-color: transparent;
+}
+.cardbody{
+    background-color: transparent;
+}
+.cardimg{
+    background-color: transparent;
+}
+
+.cardbutton{
+    padding: 1.5% 1% 1.5% 1% ;
+    font-family: Fira Sans;
+    font-weight: bold;
+    border-radius: 5px; 
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: rgb(255, 248, 248);
+    padding: 2% 2% 2% 2%;
+}
+
+
+#cb1{
+    background-color: rgb(50, 129, 129);
+}
+
+#cb2{
+    background-color: rgb(223, 135, 28);
+}
+
+#cb3{
+    background-color: rgb(45, 193, 45);
+}
+
+.quote{
+    position:relative
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content:;
+    align-items: flex-start;
+    background-color: rgb(182, 173, 173); 
+    border-radius: 20px;
+    padding: 2% 2% 2% 2%;
+}
+
+
+  .quote img {
+    opacity: 0.6;
+    position: absolute;
+    background-color: transparent;
+  }
+
+    .quote p {
+        background-color: transparent;
+    }
+
+    .quote h3 {
+        background-color: transparent;
+    }
+
+  .quote drank{
+    opacity: 0.3;
+  }
+
+
+  .RecentNews{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+    padding: 2% 2% 2% 2%;
+  }
+
+  .newshead{
+    font-size: 200%;
+    font-weight: bold;
+  }
+  .newscontent{
+    background-color: transparent;
+  }
+
+  .news-card-container {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .news-card {
+    background-color: white;
+    color: rgba(14, 14, 14, 0.7);
+    display: flex;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+  }
+  .news-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: transparent;
+  }
+  .news-card-heading {
+    font-size: 32px;
+    margin: 8px 0;
+    background-color: transparent;
+  }
+  .news-img {
+    border-radius: 24px;
+  }
+  .news-channel {
+    width: 134px;
+    background-color: transparent;
+  }
+  .newsdot{
+    background-color: transparent;
+  }
+  .news-btn {
+    padding: 13px 26px;
+    border-radius: 8px;
+    background: #006a50;
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-top: auto;
+    cursor:grab;
+  }
+
+
+
+  .donatehead{
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .ddesc{
+    text-align: center;
+  }
+
+  .cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   align-items:center;
+  }
+
+  .donatecard{
+    background-color: white;
+    padding: 3% 4% 3% 4%;
+    border-radius: 15px;
+    height: 30%;
+    width: 30%;
+    font-size: 200%;
+    cursor:grab;
+    transition: 0.25s;
+    text-align: center;
+  }
+  .donatecard:hover {
+    opacity: 0.7;
+    color : rgb(255, 255, 255);
+    background-color: rgb(11, 222, 25);
+  }
+
+
+  .donateselected{
+    background-color: rgb(11, 222, 25);
+    padding:  3% 4% 3% 4%;
+    border-radius: 15px;
+    height: 30%;
+    width: 30%;
+    font-size: 200%;
+
+  }
+
+  .amount{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1%;
+  }
+
+ .donate input {
+        width: 90%;
+        padding: 20px 40px;
+        border: none;
+        text-align: center;
+        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+ }
+
+
+.donate button {
+            padding: 13px 26px;
+            border-radius: 8px;
+            background: #006a50;
+            color: white;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+ }
+
+ .end {
+    text-align: center;
+    border-radius: 24px;
+    background-color: transparent;
+    padding: 80px 100px;
+  }
+  .subscribe {
+    margin: 24px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .subscribe input {
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    padding: 17px 40px;
+    border: none;
+    font-size: 18px;
+    width: 70%;
+  }
+  .subscribe button {
+    margin: 0% ;
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006a50;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    border: none;
+  }
+  
+  footer {
+    margin-top: 80px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .sociallinks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+    margin-top: 32px;
+  }
